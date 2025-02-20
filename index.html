@@ -5,39 +5,128 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tushar's website</title>
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+        @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
         body {
             margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            background-color: #f0f0f0;
-            font-family: Arial, sans-serif;
-        }
-        .banner {
-            background-color: #ffcc00;
-            padding: 20px 40px;
-            border-radius: 10px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-            text-align: center;
-        }
-        .banner h1 {
-            font-size: 2.5rem;
+            padding: 20px;
+            background: linear-gradient(135deg, #74ebd5, #ACB6E5);
+            font-family: 'Roboto', sans-serif;
             color: #333;
-            margin: 0;
         }
-        .banner p {
-            font-size: 1.2rem;
-            color: #555;
-            margin: 10px 0 0;
+        .cv {
+            max-width: 800px;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .profile-picture {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .profile-picture img {
+            border-radius: 50%;
+            width: 150px;
+            height: 150px;
+        }
+        h2 {
+            color: #333;
+            border-bottom: 2px solid #c3cfe2;
+            padding-bottom: 5px;
+            display: flex;
+            align-items: center;
+        }
+        h2 i {
+            margin-right: 10px;
+            color: #007bff;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+        ul li {
+            margin-bottom: 10px;
+        }
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <div class="banner">
-        <h1>Under Development</h1>
-        <p>We're working on something awesome! Stay tuned.</p>
+    <div class="cv">
+        <div class="profile-picture">
+            <img src="profile-picture.jpg" alt="Profile Picture">
+        </div>
+        <h2><i class="fas fa-user"></i>About Me</h2>
+        <p>Md Arifuzzaman<br>
+        Paulapromonade 6/6, 9500, Villach, Austria<br>
+        <a href="tel:+436703586242">+43 6703586242</a><br>
+        <a href="mailto:arifuzzamantushar@yahoo.com">arifuzzamantushar@yahoo.com</a></p>
+        <p>Motivated and detail-oriented engineering student with a strong background in laboratory management, technical documentation, and compliance. Skilled in handling lab equipment, order management, and safety procedures. Adept at creating engaging digital content and ensuring lab efficiency through automation and tracking systems. Seeking an internship at Infineon to apply my academic and practical knowledge to support engineering teams effectively.</p>
+        
+        <h2><i class="fas fa-graduation-cap"></i>Education</h2>
+        <ul>
+            <li>Carinthia University of Applied Sciences, Villach, Austria<br>
+            Master of Science in Electrical Energy & Mobility Systems (Admitted WS/2025)</li>
+            <li>American International University - Bangladesh (AIUB), Dhaka, Bangladesh<br>
+            Bachelor of Science (BSc) in Electrical and Electronics Engineering (February 2018)<br>
+            CGPA: 3.12/4.00<br>
+            Thesis: Eco Power Solar Tree with Automatic Light Tracking System</li>
+        </ul>
+        
+        <h2><i class="fas fa-briefcase"></i>Experience</h2>
+        <ul>
+            <li>Executive | ServicEngine Ltd. | Dhaka, Bangladesh (April 2021 – September 2024)<br>
+            Managed and optimized digital advertising campaigns to maximize efficiency.<br>
+            Conducted data analysis and reporting to drive performance improvements.<br>
+            Worked cross-functionally with sales and marketing teams.<br>
+            Troubleshot technical issues to ensure seamless ad delivery.</li>
+            <li>Quality & Safety Officer | Yinda Technology Bangladesh Co. Ltd. | Dhaka, Bangladesh (January 2018 – January 2020)<br>
+            Developed and implemented quality control and safety policies (aligned with IATF16949).<br>
+            Conducted compliance audits and risk assessments.<br>
+            Investigated incidents and enforced corrective actions.<br>
+            Provided training on workplace safety and equipment handling.</li>
+        </ul>
+        
+        <h2><i class="fas fa-cogs"></i>Skills</h2>
+        <ul>
+            <li>Lab & Engineering Support: Equipment maintenance, compliance standards (IATF16949), troubleshooting</li>
+            <li>Technical Skills: PCB board circuit designing, MATLAB, CAD tools, soldering (including hot gun soldering)</li>
+            <li>Data & Software: Data analytics, project management tools, MS Office, Google Suite</li>
+            <li>Communication & Organization: Team collaboration, safety training, digital content creation (PowerPoint, video editing)</li>
+            <li>Languages: Bengali (native), English (B2), German (A1)</li>
+        </ul>
+        
+        <h2><i class="fas fa-chalkboard-teacher"></i>Seminars & Workshops</h2>
+        <ul>
+            <li>Microcontroller Basics Workshop – AIUB Community of Engineering (ACES), October 2016</li>
+            <li>MATLAB & Simulink Workshop – IEEE AIUB Student Branch, November 2016</li>
+            <li>Arduino & Genuino Workshop – IEEE AIUB Student Branch, June 2016</li>
+            <li>Quadcopter Workshop – Engineering Students Association of Bangladesh (ESAB), March 2016</li>
+            <li>PSIM Simulation Workshop – Engineering Students Association of Bangladesh (ESAB), January 2016</li>
+            <li>Line Follower Robot Workshop – Engineering Students Association of Bangladesh (ESAB), March 2015</li>
+            <li>PCB Fabrication Seminar & Workshop – IEEE AIUB Student Branch, September 2014</li>
+        </ul>
+        
+        <h2><i class="fas fa-futbol"></i>Activities</h2>
+        <ul>
+            <li>Sports: Swimming, Football</li>
+            <li>Hobbies: Watching movies, Music, Gardening, Traveling</li>
+        </ul>
+        
+        <h2><i class="fas fa-envelope"></i>Contact</h2>
+        <p>Email: <a href="mailto:arifuzzamantushar@yahoo.com">arifuzzamantushar@yahoo.com</a></p>
+        <p>Phone: <a href="tel:+436703586242">+43 6703586242</a></p>
+
+        <h2><i class="fas fa-file-pdf"></i>CV</h2>
+        <embed src="/Users/arifuzzamantushar/Desktop/CV.pdf" type="application/pdf" width="600" height="400">
     </div>
 </body>
 </html>
